@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Lịch Việt",
+  "description": "Displays a Vietnamese Lunar Calendar",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "moon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "http://vietpho.com/"
+  ]
+}
